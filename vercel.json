@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "unzip -o bc-built-website.zip -d . && npm ci",
+  "buildCommand": "npm run build"
+}
